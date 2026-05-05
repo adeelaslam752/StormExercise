@@ -2,7 +2,7 @@
 
 This repository provides a complete Dockerized environment for exploring **Apache Storm**, a distributed real-time computation system. Whether you are a beginner looking to understand stream processing or an experienced developer testing topologies, this setup provides a comprehensive sandbox.
 
-## 🚀 Overview
+##  Overview
 
 The Docker image encapsulates the entire Storm ecosystem, including:
 *   **Nimbus**: The master node of Storm.
@@ -18,13 +18,13 @@ The setup comes pre-configured with three specific application examples:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 While this is configured as a **single-node setup** for ease of use, it is designed for scalability. 
 *   **Scalability**: You can easily extend this to a distributed cluster by running different services on different nodes (e.g., one node for Nimbus/Zookeeper and multiple nodes for Supervisors).
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 Follow these steps to build the image and start playing with Storm:
 
@@ -32,3 +32,12 @@ Follow these steps to build the image and start playing with Storm:
 ```bash
 git clone [https://github.com/adeelaslam752/StormExercise.git](https://github.com/adeelaslam752/StormExercise.git)
 cd StormExercise
+
+### 2. Build the Docker Image
+```bash
+docker build -t storm_exercise .
+
+### 3. Run the Container
+Map port 8080 to access the Storm UI from your browser:
+```bash
+docker run -it -p 8080:8080 storm_exercise /bin/bash
