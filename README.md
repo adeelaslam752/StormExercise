@@ -46,8 +46,17 @@ docker run -it -p 8080:8080 storm_exercise /bin/bash
 ```bash
 ./script.sh
 ```
+<img width="1047" height="90" alt="Ist" src="https://github.com/user-attachments/assets/d59d313b-8eaa-4890-ac93-135376138776" />
+
 ### 5. Verify the services of storm
 ```bash
 jps
 ```
 <img width="341" height="244" alt="2nd" src="https://github.com/user-attachments/assets/882d172e-dfc9-41e8-aeac-66fc970520fe" />
+
+### 6. Run the applications such as Word count, WindowJoin, and HashPartitioning demo 
+Submit the application to the leader (Nimbus) node
+Locate to Nimbus Storm folder
+<img width="504" height="58" alt="3" src="https://github.com/user-attachments/assets/f0dc5465-a87f-46e2-9401-a8827c162fcf" />
+
+
