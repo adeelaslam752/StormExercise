@@ -42,3 +42,12 @@ Map port 8080 to access the Storm UI from your browser:
 ```bash
 docker run -it -p 8080:8080 storm_exercise /bin/bash
 ```
+### 4. Initialize the Services
+```bash
+./script.sh
+```
+### 5. Verify the services of storm
+```bash
+jps
+```
+<img width="341" height="244" alt="2nd" src="https://github.com/user-attachments/assets/882d172e-dfc9-41e8-aeac-66fc970520fe" />
