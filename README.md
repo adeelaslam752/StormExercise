@@ -63,18 +63,24 @@ Locate to Nimbus Storm folder
 
 Run the WordCount: The application are packaged inot the Jars folder
 <img width="1184" height="48" alt="4" src="https://github.com/user-attachments/assets/c6588464-d69a-46a2-bdd3-23bb767b62bb" />
+
 Run the WindowJoin
+
 <img width="1221" height="39" alt="window join " src="https://github.com/user-attachments/assets/a0dfabf3-6035-42a2-9509-e8b3eccdd8a8" />
 Run the Partitioning example
 <img width="1316" height="49" alt="hashparti9" src="https://github.com/user-attachments/assets/797c8063-1605-4d2d-b673-5c64906a0d4d" />
+
 
 ### 7. Monitoring
  got to http://localhost:8080/
 
  First observe it applications
  <img width="3638" height="1288" alt="second last" src="https://github.com/user-attachments/assets/89938215-787b-4eb4-9785-f7ddf3e686f3" />
+
+ 
  Observe the fine grainded details 
  <img width="2544" height="1240" alt="WindowJoin" src="https://github.com/user-attachments/assets/81700135-5ac7-4d4e-9031-c5787254fac9" />
+
 
  If you need any help just create a issue or ping me at adeelaslam752@gmail.com
 
