@@ -32,7 +32,7 @@ Follow these steps to build the image and start playing with Storm:
 ```bash
 git clone [https://github.com/adeelaslam752/StormExercise.git](https://github.com/adeelaslam752/StormExercise.git)
 cd StormExercise
-
+```
 ### 2. Build the Docker Image
 ```bash
 docker build -t storm_exercise .
