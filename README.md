@@ -36,8 +36,9 @@ cd StormExercise
 ### 2. Build the Docker Image
 ```bash
 docker build -t storm_exercise .
-
+```
 ### 3. Run the Container
 Map port 8080 to access the Storm UI from your browser:
 ```bash
 docker run -it -p 8080:8080 storm_exercise /bin/bash
+```
